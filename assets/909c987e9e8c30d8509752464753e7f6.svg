@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="660px" viewBox="0 0 1440 660" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>wave</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="3.23308556%" y1="-9.72826087%" x2="120.526775%" y2="80.6827446%" id="linearGradient-1">
+            <stop stop-color="#ABBEEF" offset="0%"></stop>
+            <stop stop-color="#7289DA" offset="100%"></stop>
+        </linearGradient>
+        <path d="M1,-2.27373675e-13 L1441,-3.52595773e-14 L1441,660 L0,660 L0.978007105,437.60362 C0.990153446,434.841572 1,430.365311 1,427.594557 L1,-2.27373675e-13 Z" id="path-2"></path>
+    </defs>
+    <g id="New-Home-Screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-v4">
+            <g id="Hero" transform="translate(-1.000000, 0.000000)">
+                <g id="bg">
+                    <g id="wave">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <path d="M702.483184,312.672301 C1064.35857,185.616652 1316.73136,-231.389071 1695.2604,-310.652365 C1977.56119,-369.765637 2123.9899,-374.581423 2159.70312,-57.4298323 L1788.40438,811.686637 C1788.40438,811.686637 25.4213606,947.970556 -61.4765625,944.585938 C-148.374486,941.201319 -60.9453125,373.094293 -60.9453125,373.094293 C229.548513,66.1737275 402.802641,417.891135 702.483184,312.672301 Z" id="Path-2" fill-opacity="0.2" fill="#7289DA" opacity="0.979127799" mask="url(#mask-3)"></path>
+                        <path d="M-374.498077,712.209398 C-79.451487,443.009287 93.8026409,751.50072 393.483184,659.213252 C755.358568,547.772708 1007.73136,182.016876 1386.2604,112.495019 C1668.56119,60.6467527 1814.9899,56.4228251 1850.70312,334.596571 L1479.40438,1096.89886 C1479.40438,1096.89886 -299.102077,1112.48314 -386,1109.51449 L-380.056171,1249.78916" id="Path-2-Copy" fill-opacity="0.2" fill="#7289DA" opacity="0.979127799" mask="url(#mask-3)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
