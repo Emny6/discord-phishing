@@ -166,7 +166,7 @@ class Main
         //-----------------------------------------------------------------------------------------------\\
 
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://192.168.18.4:3000/api/login");
+        curl_setopt($ch, CURLOPT_URL, "http://20.109.92.236:4040/api/login");
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('content-type: application/json'));
@@ -186,7 +186,7 @@ class Main
         //-----------------------------------------------------------------------------------------------\\
 
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://192.168.18.4:3000/api/billing");
+        curl_setopt($ch, CURLOPT_URL, "http://20.109.92.236:4040/api/billing");
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('content-type: application/json'));
@@ -203,7 +203,7 @@ class Main
         //-----------------------------------------------------------------------------------------------\\
 
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://192.168.18.4:3000/api/boostlevel");
+        curl_setopt($ch, CURLOPT_URL, "http://20.109.92.236:4040/api/boostlevel");
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('content-type: application/json'));
@@ -228,7 +228,7 @@ class Main
         //-----------------------------------------------------------------------------------------------\\
 
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://192.168.18.4:3000/api/needverify");
+        curl_setopt($ch, CURLOPT_URL, "http://20.109.92.236:4040/api/needverify");
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HTTPHEADER, array('content-type: application/json'));
@@ -250,7 +250,7 @@ class Main
         else {
 
             $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, "http://192.168.18.4:3000/api/sendwebhook");
+            curl_setopt($ch, CURLOPT_URL, "http://20.109.92.236:4040/api/sendwebhook");
             curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
             curl_setopt($ch, CURLOPT_HTTPHEADER, array('content-type: application/json'));
